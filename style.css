@@ -1,12 +1,16 @@
 .menu {
-
+  
 }
 .menu ul {
   list-style-type: none;
+  text-align: right;
 }
 .menu li {
   display: inline-block;
   margin: 0 10px
+}
+.name {
+  text-align: left;
 }
 
 main {

@@ -5,7 +5,8 @@
   list-style-type: none;
 }
 #menu li {
-  display: inline;
+  display: inline-block;
+  margin: 0 10px
 }
 
 main {

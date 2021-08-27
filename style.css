@@ -1,18 +1,77 @@
-.menu {
-  
+* { padding: 0; margin: 0; }
+html, body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Avenir Next Condensed',sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+header {
+  background-color: #0b2545;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+}
+#me {
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  padding-top: 1em;
+}
+header .menu {
+  padding-top: 1em;
+  padding-left: 2em;
 }
 .menu ul {
   list-style-type: none;
   text-align: right;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
 }
 .menu li {
   display: inline-block;
   margin: 0 10px
 }
 .name {
+  margin-top: 2em;
   text-align: left;
+  color: #8da9c4;
 }
-
+.bar {
+  size: 2;
+  margin: 30px -20px 20px;
+  color: black;
+}
+.border {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin-top: -1.3em;
+  margin-left: 4em;
+  margin-right: 4em;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-width: 0.1em;
+  border-right-width: 0.1em;
+}
 main {
   text-align: center;
+  padding-top: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.footer-bar {
+  size: 2;
+  margin-left: 30px -20px 20px;
+  color: #13315c;
+}
+footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 5em;
+  margin-bottom: auto;
+  background-color: #13315c;
 }

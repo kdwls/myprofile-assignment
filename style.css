@@ -8,49 +8,93 @@ html, body {
 body {
   min-height: 100vh;
 }
+.outer, header {
+  display: block;
+}
+.outer {
+  width: 100%;
+  padding: 0;
+}
 header {
   background-color: #0b2545;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -20px;
+  height: 5em;
 }
 #me {
   border-radius: 50%;
-  width: 6em;
-  height: 6em;
-  padding-top: 1em;
+  width: 60px;
+  height: 60px;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  float: left;
+  transition: all 0.2s ease-in-out;
 }
-header .menu {
-  padding-top: 1em;
-  padding-left: 2em;
+#bg-right {
+  background-color: #eef4ed;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 83.5em;
+  right: 0;
+  z-index: -1;
+}
+#bg-left {
+  background-color: #eef4ed;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 83.5em;
+  z-index: -1;
 }
 .menu ul {
   list-style-type: none;
   text-align: right;
-  padding-right: 1.5em;
-  padding-bottom: 1em;
+  margin-top: -1.5em;
+  margin-right: 1em;
 }
 .menu li {
   display: inline-block;
-  margin: 0 10px
+  margin: 0 10px;
+}
+a:link, a:visited {
+  background-color: #13315c;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  box-shadow: 0 0px 16px rgba(141, 169, 196, .4);
+}
+a:link {
+  color: #8da9c4;
+}
+a:visited {
+  color: #eef4ed;
 }
 .name {
-  margin-top: 2em;
   text-align: left;
+  font-size: 25px;
+  letter-spacing: 2px;
   color: #8da9c4;
+  padding-top: 0.8em;
+  padding-left: 5em;
+}
+#me:hover {
+  box-shadow:0 0px 16px rgba(141, 169, 196, .4)
 }
 .bar {
   size: 2;
-  margin: 30px -20px 20px;
+  margin: 28px -20px 20px;
   color: black;
 }
 .border {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  margin-top: -1.3em;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-top: -0.09em;
+  margin-left: 6.5em;
+  margin-right: 6.5em;
   border-left-style: solid;
   border-right-style: solid;
   border-left-width: 0.1em;
@@ -74,4 +118,7 @@ footer {
   height: 5em;
   margin-bottom: auto;
   background-color: #13315c;
+}
+footer p {
+  color: #8da9c4;
 }

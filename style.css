@@ -1,9 +1,9 @@
 #menu {
   text-align: right;
-  display: inline;
 }
 #menu ul {
   list-style-type: none;
+  display: inline;
 }
 
 main {

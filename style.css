@@ -1,6 +1,8 @@
 #menu {
   text-align: right;
   display: inline;
+}
+#menu il {
   list-style-type: none;
 }
 

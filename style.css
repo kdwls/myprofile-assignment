@@ -1,10 +1,10 @@
-#menu {
+.menu {
 
 }
-#menu ul {
+.menu ul {
   list-style-type: none;
 }
-li {
+.menu li {
   display: inline-block;
   margin: 0 10px
 }

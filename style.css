@@ -106,10 +106,13 @@ a:visited {
 }
 main {
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-left: 10em;
   padding-right: 10em;
   font-size: 18px;
+}
+.heading {
+  padding-top: 1em;
 }
 #about {
   position: relative;
@@ -124,6 +127,12 @@ main {
   float: right;
   margin-top: -3em;
   margin-right: -5em;
+}
+#interest {
+  position: relative;
+}
+#interest p {
+  padding-top: 1em;
 }
 .footer-bar {
   size: 2;

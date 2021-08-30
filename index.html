@@ -3,7 +3,7 @@
     <head>
         <title>Kai Dowling | My Profile</title>
         <link rel="stylesheet" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/JavaScript"src="jquery-3.3.1.js"></script>
         <script src="profile.js"></script>
     </head>
     <!-- to change background colour of left + right side -->
@@ -11,23 +11,28 @@
     <div class="bg-left"><img src="img/bg-left.jpeg" alt="background left side" class="bg-left"></div>
     <body>
         <!-- header/menu bar -->
-        <header>
-            <nav class="menu">
-                <img src="img/me.JPG" alt="Me" id="me">
-                <p class="name">Kai Dowling</p>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#interest">Interest in IT</a></li>
-                    <li><a href="#job">Ideal Job</a></li>
-                    <li><a href="#profile">Personal Profile</a></li>
-                    <li><a href="#project">Project Ideas</a></li> 
-                  </ul>
-            </nav>
-            <hr class="bar">
-        </header>
+        <div id="header">
+            <header class="nav-down">
+                <nav class="menu">
+                    </a><img src="img/me.JPG" alt="Me" id="me">
+                    <p class="name">Kai Dowling</p>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#interest">Interest in IT</a></li>
+                        <li><a href="#job">Ideal Job</a></li>
+                        <li><a href="#profile">Personal Profile</a></li>
+                        <li><a href="#project">Project Ideas</a></li> 
+                    </ul>
+                </nav>
+                <hr class="bar">
+            </header>
+        </div>
         </div>
         <div class="border">
             <main>
+                <section id="top">
+
+                </section>
                 <section id="about">
                     <h3 class="heading">About Me</h3>
                     <p>Born and raised on the north coast of NSW I’ve always had a passion for anything IT. Being surrounded by technology in all aspects of my childhood and life today, IT is an inescapable and integral piece of our society as a whole. From an Australian/Maori background, technology has been a major factor in staying connected with family, friends and culture across the world, and is the main reason I want to study IT. I haven’t had any further education past Year 12, however I hope this course can allow me to pursue a degree and eventually a career in IT.</p>
@@ -43,7 +48,7 @@
                 </section>
                 <section id="job">
                     <h3 class="heading">Ideal Job</h3>
-                    <img src="img/job.jpeg" alt="Job" id="job-ad">
+                    <a href="https://www.seek.com.au/job/53514372?type=standout#searchRequestToken=7174df1f-54d8-4275-906c-efff74d1373b"><img src="img/job.jpeg" alt="Job" id="job-ad"></a>
                     <p>This role involves full stack development using client-side technology, C#, multiple frameworks and tools. It includes analysis, design and production of high quality software for an online gambling platform. With offices located internationally the opportunity to travel, as well as the actual job, this job is very appealing.</p>
                     <p>A minimum of 2-5 years software development, a minimum 3 year relevant qualification or a relevant 1 year certification and at lease 2 years software development experience is required before applying. Experience in clients such as Polymer/Lit, JavaScript, HTML and tools such as Git, Azure Dev Ops and SonarQube is also preferred and highly regarded.</p>
                     <p>Although my skills and qualifications don’t match the job description at this point in time, other than basic HTML, I’m hopeful by the end of my degree I’ll have the skills and certifications to pursue this job. Through practice and implementation of the aforementioned clients and tools throughout my study at RMIT, both in personal projects and class assignments, I believe this is possible.</p>

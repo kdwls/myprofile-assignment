@@ -17,13 +17,13 @@ body {
   padding: 0;
 }
 #header {
-  background-color: #1d320c;
+  background-color: #1d310c;
   height: 5em;
-  position: fixed;
   width: 100%;
+  margin-top: -5em;
   top: 0;
   z-index: 1;
-  transition: top 0.2s ease-in-out;
+  box-shadow: 0 0.3em 1em black;
 }
 .nav-up {
   top: -5em;
@@ -155,10 +155,40 @@ main {
 #job p {
   padding-top: 1em;
 }
+#profile p {
+  padding-top: 1em;
+}
+#pers-test {
+  width: 147px;
+  height: 370px;
+  padding-left: 1em;
+  padding-top: 1em;
+  float: right;
+  margin-right: -6em;
+}
+#vark-test {
+  width: 381px;
+  height: 282px;
+  float: left;
+  margin-left: -6em;
+  padding: 1em;
+}
+#c-test {
+  width: 380px;
+  height: 370px;
+  float: right;
+  margin-right: -6em;
+}
+#project p {
+  padding-top: 1em;
+}
 .footer-bar {
   size: 2;
   margin-left: 30px -20px 20px;
   color: #1d320c;
+}
+section {
+  padding-bottom: 6em;
 }
 footer {
   text-align: center;
